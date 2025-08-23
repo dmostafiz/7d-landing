@@ -98,8 +98,7 @@ export default function HiddenSectionOne({ isVisible }) {
                         </li>
                         <li>
                           <p>
-                            Or someone ready to create multiple income streams
-                            that actually build freedom
+                            Or Someone ready to create multiple income streams that actually work
                           </p>
                         </li>
                       </ul>
@@ -138,7 +137,7 @@ export default function HiddenSectionOne({ isVisible }) {
                           <p>Run profitable ads without being an influencer</p>
                         </li>
                         <li>
-                          <p>Build funnels and automation using AI</p>
+                          <p>Learn how to gain followers and reach</p>
                         </li>
                         <li>
                           <p>
@@ -189,7 +188,7 @@ export default function HiddenSectionOne({ isVisible }) {
                       <div>
                         <img
                           style={{}}
-                          src="images/revenue.png"
+                          src="new.png"
                           alt=""
                           className="img-none img-border-none img-effects-none"
                           data-animation-class=""

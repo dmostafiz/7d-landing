@@ -51,7 +51,7 @@ export default function AllSections() {
                     >
                       <div>
                         <h2>
-                          Attention Digital Marketers and Business Leaders
+                          STILL CHASING COMMISSIONS? IT’S TIME TO BUILD WEALTH!
                         </h2>
                       </div>
                     </div>
@@ -66,7 +66,7 @@ export default function AllSections() {
                         <h1>
                           <strong>Join the $7 Wealth Community </strong>That
                           Shows You How to Make, Keep, and Grow Money Online and
-                          Offline Even If You’re Starting From Scratch Instead
+                          Offline Even If You’re Starting From Scratch
                         </h1>
                       </div>
                     </div>
@@ -77,14 +77,12 @@ export default function AllSections() {
                     className="c-sub-heading c-wrapper"
                   >
                     <div
-                      className="sub-heading-7D98EO50WR text-output csub-heading-7D98EO50WR noBorder radius0 animate__fadeInUp"
+                      className="sub-heading-7D98EO50WR text-output csub-heading-QK66M5TZML noBorder radius0 animate__fadeInUp"
                       data-animation-class="animate__animated animate__fadeInUp"
                     >
                       <div>
                         <h2>
-                          You’ve tried side hustles. Bought courses. Promoted
-                          affiliate offers. Maybe made a little... but are you
-                          actually free yet?
+                          You’ve tried side hustles, courses and affiliate offers. Maybe made a little... but are you free yet?
                         </h2>
                       </div>
                     </div>
@@ -137,11 +135,14 @@ export default function AllSections() {
 
                   <div id="heading-I14WPDOODV" className="c-heading c-wrapper">
                     <div
-                      className="heading-I14WPDOODV text-output cheading-I14WPDOODV noBorder radius0"
+                      className="heading-I14WPDOODV text-output csub-heading-QK66M5TZML noBorder radius0"
                       data-animation-class=""
+                      style={{
+                        textAlign: 'left'
+                      }}
                     >
                       <div>
-                        <h1>STILL CHASING CASH? IT’S TIME TO BUILD WEALTH</h1>
+                        <h1>REAL WEALTH ISN’T JUST ABOUT MAKING MONEY</h1>
                       </div>
                     </div>
                   </div>
@@ -156,46 +157,65 @@ export default function AllSections() {
                     >
                       <div>
                         <p>
-                          REAL WEALTH ISN’T JUST ABOUT MAKING MONEY <br />
+                          <br />
                           It’s About What You Do With It and How You Make It
                           Work For You
                         </p>
                         <p>
                           Most people are stuck in one of two traps: <br />
                         </p>
-                        <ol type="">
-                          <li>
-                            {" "}
-                            They don’t know how to start building income streams
-                            that actually scale
-                          </li>
-                          <li>
-                            They make some cash but have no idea how to keep it,
-                            grow it, or exit the rat race
-                          </li>
-                        </ol>
+
+
+
+                        <div
+                          className="bulletList-FAgVt5QUUc text-output cbulletList- noBorder radius0 none"
+                          data-animation-class=""
+                        >
+                          <div>
+                            <ul>
+                              <li>
+                                <p> They don’t know how to start building income streams
+                                  that actually scale</p>
+                              </li>
+                              <li>
+                                <p>They make some cash but don't know how to grow it and exit the rat race</p>
+                              </li>
+
+                            </ul>
+                          </div>
+
+                        </div>
+
                         <p style={{ margin: "20px 0" }}>We fix both.</p>
                         <p>
                           Inside the $7 Wealth Community, you’ll learn how to:{" "}
                           <br />
                         </p>
-                        <ul>
-                          <li>
-                            Start earning real income online and offline even if
-                            you're brand new
-                          </li>
-                          <li>
-                            Build systems that create passive income and sales
-                            24/7
-                          </li>
-                          <li>
-                            Use smart strategies to keep more of your cash and
-                            stop overpaying in taxes
-                          </li>
-                          <li>
-                            Turn your income into long-term wealth and freedom
-                          </li>
-                        </ul>
+
+                        <div
+                          className="bulletList-FAgVt5QUUc text-output cbulletList- noBorder radius0 none"
+                          data-animation-class=""
+                        >
+                          <div>
+                            <ul>
+                              <li>
+                                <p> Start earning real income online and offline even if
+                                  you're brand new</p>
+                              </li>
+                              <li>
+                                <p>Build systems that create passive income and sales
+                                  24/7</p>
+                              </li>
+                              <li>
+                                <p>Use smart strategies to keep more of your money</p>
+                              </li>
+                              <li>
+                                <p>Turn your income into long-term wealth and freedom</p>
+                              </li>
+                            </ul>
+                          </div>
+
+                        </div>
                         <p className="mb-4">
                           This is a complete blueprint from making your first
                           dollar to retiring early
