@@ -1,9 +1,8 @@
 export default function HiddenSectionThree({ isVisible }) {
   return (
     <div
-      className={`hidden-section fullSection noBorder radius0 none c-section c-wrapper section-nAJV4_R5dG ${
-        isVisible ? "shown" : ""
-      }`}
+      className={`hidden-section fullSection noBorder radius0 none c-section c-wrapper section-nAJV4_R5dG ${isVisible ? "shown" : ""
+        }`}
       style={{}}
       id="section-nAJV4_R5dG"
     >
@@ -291,7 +290,7 @@ export default function HiddenSectionThree({ isVisible }) {
                       <div>
                         <img
                           style={{}}
-                          src="/images/include-with-order-thumb.png"
+                          src="/img/2.png"
                           alt=""
                           className="radius0"
                           data-animation-class=""
@@ -339,7 +338,7 @@ export default function HiddenSectionThree({ isVisible }) {
                           <div>
                             <img
                               style={{ width: 150, height: "auto" }}
-                              src="/images/playbook.png"
+                              src="/img/3.png"
                               alt=""
                               className="feature-bonus feature-cols-70-30 feature-img-left noBorder radius0 img-shadow-none img-round-corners img-border-none img-effects-none"
                               data-animation-class=""
@@ -396,7 +395,7 @@ export default function HiddenSectionThree({ isVisible }) {
                           <div>
                             <img
                               style={{ width: 150, height: "auto" }}
-                              src="/images/playbook.png"
+                              src="/img/4.png"
                               alt=""
                               className="feature-bonus feature-cols-70-30 feature-img-left noBorder radius0 img-shadow-none img-round-corners img-border-none img-effects-none"
                               data-animation-class=""
@@ -452,7 +451,7 @@ export default function HiddenSectionThree({ isVisible }) {
                           <div>
                             <img
                               style={{ width: 150, height: "auto" }}
-                              src="/images/playbook.png"
+                               src="/img/5.png"
                               alt=""
                               className="feature-bonus feature-cols-70-30 feature-img-left noBorder radius0 img-shadow-none img-round-corners img-border-none img-effects-none"
                               data-animation-class=""

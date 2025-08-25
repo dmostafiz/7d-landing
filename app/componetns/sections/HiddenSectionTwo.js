@@ -74,7 +74,7 @@ export default function HiddenSectionTwo({ isVisible }) {
                       data-animation-class=""
                     >
                       <div>
-                        <h2>Offline and Passive Income Track</h2>
+                        <h2>Online Income Track</h2>
                       </div>
                     </div>
                   </div>
@@ -82,21 +82,21 @@ export default function HiddenSectionTwo({ isVisible }) {
                     <div className="timeline-step">
                       <div className="dot"></div>
                       <div className="content">
-                        <p>Buying Laundromats, ATMs, and Car Washes</p>
+                        <p>Social Media Deep Dive</p>
                       </div>
                     </div>
 
                     <div className="timeline-step">
                       <div className="dot"></div>
                       <div className="content">
-                        <p>Real Estate: Flipping, Rentals, Airbnb</p>
+                        <p>Digital Product Creation</p>
                       </div>
                     </div>
 
                     <div className="timeline-step">
                       <div className="dot"></div>
                       <div className="content">
-                        <p>Dividend Stocks, Roth IRAs, and FIRE Strategy.</p>
+                        <p>AI Agents, ChatGPT, VEO3</p>
                       </div>
                     </div>
 
@@ -122,7 +122,7 @@ export default function HiddenSectionTwo({ isVisible }) {
                       data-animation-class=""
                     >
                       <div>
-                        <h2>Online Income Track</h2>
+                        <h2>Offline Income Track</h2>
                       </div>
                     </div>
                   </div>
@@ -131,8 +131,7 @@ export default function HiddenSectionTwo({ isVisible }) {
                       <div className="dot"></div>
                       <div className="content">
                         <p>
-                          Conceptualize the project with goals, audience, and
-                          outcomes.
+                          Buying Semi-Passive Businesses
                         </p>
                       </div>
                     </div>
@@ -141,7 +140,7 @@ export default function HiddenSectionTwo({ isVisible }) {
                       <div className="dot"></div>
                       <div className="content">
                         <p>
-                          Create wireframes, UI mockups, and user flow diagrams.
+                         Real Estate: Flipping, Rentals, Airbnb
                         </p>
                       </div>
                     </div>
@@ -149,19 +148,11 @@ export default function HiddenSectionTwo({ isVisible }) {
                     <div className="timeline-step">
                       <div className="dot"></div>
                       <div className="content">
-                        <p>Write clean code, integrate APIs, test features.</p>
+                        <p>Private Equity and Lending</p>
                       </div>
                     </div>
 
-                    <div className="timeline-step">
-                      <div className="dot"></div>
-                      <div className="content">
-                        <p>
-                          Deploy the final product and monitor real-time
-                          feedback.
-                        </p>
-                      </div>
-                    </div>
+    
                   </div>
                 </div>
 
@@ -183,21 +174,21 @@ export default function HiddenSectionTwo({ isVisible }) {
                     <div className="timeline-step">
                       <div className="dot"></div>
                       <div className="content">
-                        <p>Tax Strategy Simplified</p>
+                        <p>Tax Strategies of the Wealthy</p>
                       </div>
                     </div>
 
                     <div className="timeline-step">
                       <div className="dot"></div>
                       <div className="content">
-                        <p>Financial Independence Roadmap</p>
+                        <p>Trusts,  LLCs and Corporations</p>
                       </div>
                     </div>
 
                     <div className="timeline-step">
                       <div className="dot"></div>
                       <div className="content">
-                        <p>Long-Term Wealth Building with AI</p>
+                        <p>Retire Early Wealth Strategies</p>
                       </div>
                     </div>
                   </div>

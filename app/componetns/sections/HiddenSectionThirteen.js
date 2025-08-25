@@ -1,9 +1,8 @@
 export default function HiddenSectionThirteen({ isVisible }) {
   return (
     <div
-      className={`hidden-section radius0 noBorder c-section c-wrapper section-hwoI2DdFeB ${
-        isVisible ? "shown" : ""
-      }`}
+      className={`hidden-section radius0 noBorder c-section c-wrapper section-hwoI2DdFeB ${isVisible ? "shown" : ""
+        }`}
       style={{}}
       id="section-hwoI2DdFeB"
     >
@@ -74,7 +73,7 @@ export default function HiddenSectionThirteen({ isVisible }) {
                           <div>
                             <img
                               style={{ width: 150, height: "auto" }}
-                              src="/images/playbook.png"
+                              src="/img/3.png"
                               alt="Image"
                               className="feature-bonus feature-cols-80-20 feature-img-left img-shadow-none img-round-corners img-border-none img-effects-none"
                               data-animation-class=""
@@ -150,7 +149,7 @@ export default function HiddenSectionThirteen({ isVisible }) {
                           <div>
                             <img
                               style={{ width: 150, height: "auto" }}
-                              src="/images/playbook.png"
+                              src="/img/4.png"
                               alt="Image"
                               className="feature-bonus feature-cols-80-20 feature-img-left img-shadow-none img-round-corners img-border-none img-effects-none"
                               data-animation-class=""
@@ -227,7 +226,7 @@ export default function HiddenSectionThirteen({ isVisible }) {
                           <div>
                             <img
                               style={{ width: 150, height: "auto" }}
-                              src="/images/playbook.png"
+                              src="/img/5.png"
                               alt="Image"
                               className="feature-bonus feature-cols-80-20 feature-img-left img-shadow-none img-round-corners img-border-none img-effects-none"
                               data-animation-class=""

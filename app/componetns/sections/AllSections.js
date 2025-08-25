@@ -321,7 +321,7 @@ export default function AllSections() {
                       data-animation-class=""
                     >
                       <div>
-                        <h1>Join Now For $97</h1>
+                        <h1>Join Now For $7</h1>
                       </div>
                     </div>
                   </div>
@@ -338,7 +338,7 @@ export default function AllSections() {
                         <div>
                           <img
                             style={{}}
-                            src="/images/order-form-thumb.png"
+                            src="/img/1.png"
                             alt=""
                             className="radius0"
                             data-animation-class=""
