@@ -430,7 +430,7 @@ export default function AllSections() {
                     >
                       <div>
                         <h2>
-                          <strong>YOU’RE SAVING $997+ TODAY</strong>
+                          <strong>Join The $7 Community  - TODAY</strong>
                         </h2>
                       </div>
                     </div>
@@ -447,8 +447,7 @@ export default function AllSections() {
                       <div>
                         <p>
                           <strong>
-                            Join The Wealthery Paid Advertising Masterclass’ For
-                            $97
+                            Get Full Access Right Away.
                           </strong>
                         </p>
                       </div>
@@ -463,10 +462,10 @@ export default function AllSections() {
                       className="paragraph-TUFGZ46ZF4 text-output cparagraph-TUFGZ46ZF4 np noBorder radius0"
                       data-animation-class=""
                     >
-                      <div>
+                      {/* <div>
                         <p>Bonuses Will Be Delivered Instantly.</p>
                         <p>Get Full Access Right Away.</p>
-                      </div>
+                      </div> */}
                     </div>
                   </div>
 

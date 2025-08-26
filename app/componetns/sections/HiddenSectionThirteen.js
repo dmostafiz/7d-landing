@@ -73,7 +73,7 @@ export default function HiddenSectionThirteen({ isVisible }) {
                           <div>
                             <img
                               style={{ width: 150, height: "auto" }}
-                              src="/img/3.png"
+                              src="/img/4.png"
                               alt="Image"
                               className="feature-bonus feature-cols-80-20 feature-img-left img-shadow-none img-round-corners img-border-none img-effects-none"
                               data-animation-class=""
@@ -149,7 +149,7 @@ export default function HiddenSectionThirteen({ isVisible }) {
                           <div>
                             <img
                               style={{ width: 150, height: "auto" }}
-                              src="/img/4.png"
+                              src="/img/5.png"
                               alt="Image"
                               className="feature-bonus feature-cols-80-20 feature-img-left img-shadow-none img-round-corners img-border-none img-effects-none"
                               data-animation-class=""
@@ -226,7 +226,7 @@ export default function HiddenSectionThirteen({ isVisible }) {
                           <div>
                             <img
                               style={{ width: 150, height: "auto" }}
-                              src="/img/5.png"
+                              src="/img/3.png"
                               alt="Image"
                               className="feature-bonus feature-cols-80-20 feature-img-left img-shadow-none img-round-corners img-border-none img-effects-none"
                               data-animation-class=""
@@ -287,79 +287,7 @@ export default function HiddenSectionThirteen({ isVisible }) {
                   </div>
                 </div>
 
-                <div className="divider-line"></div>
-
-                <div
-                  id="image-feature-uXY4sBIW6S"
-                  className="c-image-feature c-wrapper image-feature-uXY4sBIW6S"
-                >
-                  <div className="img-feature-container feature-img-left feature-cols-80-20 cimage-feature-uXY4sBIW6S feature-bonus feature-cols-80-20 feature-img-left">
-                    <div className="img-container text-center">
-                      <div
-                        style={{ cursor: "default" }}
-                        className="image-container"
-                      >
-                        <div>
-                          <div>
-                            <img
-                              style={{ width: 150, height: "auto" }}
-                              src="/images/playbook.png"
-                              alt="Image"
-                              className="feature-bonus feature-cols-80-20 feature-img-left img-shadow-none img-round-corners img-border-none img-effects-none"
-                              data-animation-class=""
-                              loading="lazy"
-                            />
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="txt-container">
-                      <div className="image-feature-uXY4sBIW6S-headline text-output featureHeadline">
-                        <div>
-                          <h2>
-                            <u>Yours Today for Just One-Time Payment of $7</u>
-                          </h2>
-                          <h2>TOTAL REAL VALUE OVER $1,991</h2>
-                        </div>
-                      </div>
-                      <div className="image-feature-uXY4sBIW6S-text text-output featureText">
-                        <div>
-                          <div
-                            id="bulletList-w13i89G-T8"
-                            class="c-bullet-list c-wrapper"
-                          >
-                            <div
-                              class="bulletList-w13i89G-T8 text-output cbulletList-w13i89G-T8 noBorder radius0"
-                              data-animation-class=""
-                            >
-                              <div>
-                                <ul>
-                                  <li>
-                                    <p>
-                                      Lifetime access to the $7 Wealth Community
-                                    </p>
-                                  </li>
-                                  <li>
-                                    <p>30-Day Income Kickstart Plan</p>
-                                  </li>
-                                  <li>
-                                    <p>All 3 GPT Tools included</p>
-                                  </li>
-                                  <li>
-                                    <p>
-                                      Weekly masterminds, daily chats, and
-                                      exclusive content
-                                    </p>
-                                  </li>
-                                </ul>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+     
 
                 <div className="divider-line"></div>
 

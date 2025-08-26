@@ -338,7 +338,7 @@ export default function HiddenSectionThree({ isVisible }) {
                           <div>
                             <img
                               style={{ width: 150, height: "auto" }}
-                              src="/img/3.png"
+                              src="/img/4.png"
                               alt=""
                               className="feature-bonus feature-cols-70-30 feature-img-left noBorder radius0 img-shadow-none img-round-corners img-border-none img-effects-none"
                               data-animation-class=""
@@ -395,7 +395,7 @@ export default function HiddenSectionThree({ isVisible }) {
                           <div>
                             <img
                               style={{ width: 150, height: "auto" }}
-                              src="/img/4.png"
+                              src="/img/5.png"
                               alt=""
                               className="feature-bonus feature-cols-70-30 feature-img-left noBorder radius0 img-shadow-none img-round-corners img-border-none img-effects-none"
                               data-animation-class=""
@@ -451,7 +451,7 @@ export default function HiddenSectionThree({ isVisible }) {
                           <div>
                             <img
                               style={{ width: 150, height: "auto" }}
-                               src="/img/5.png"
+                               src="/img/3.png"
                               alt=""
                               className="feature-bonus feature-cols-70-30 feature-img-left noBorder radius0 img-shadow-none img-round-corners img-border-none img-effects-none"
                               data-animation-class=""
