@@ -7,8 +7,7 @@ import {
   useStripe,
   useElements,
 } from "@stripe/react-stripe-js";
-import { Button } from "@chakra-ui/react";
-import { Provider } from "@/components/ui/provider";
+
 import Axios from "@/Helpers/Axios";
 import Cookies from "js-cookie";
 
@@ -36,19 +35,37 @@ function CheckoutForm({ clientSecret }) {
     });
 
     if (error) {
+
       setError(error.message);
       setLoading(false);
+
     } else if (paymentIntent && paymentIntent.status === "succeeded") {
       // Inform your backend
-      const res = await Axios.post("/", {
-
+      const res = await Axios.post("/uxlm/create-7x-order", {
+        paymentIntentId: paymentIntent.id,
+        clientSecret
+      }, {
+        headers: {
+          Authorization: `Bearer ${Cookies.get('token')}`
+        }
       });
 
-      Cookies.remove('intent')
-      Cookies.remove('token')
-      Cookies.remove('sponsor')
-      
-      alert("Payment successful!");
+      console.log('after payment response: ', res?.data)
+
+      if (res?.data?.ok) {
+
+        Cookies.remove('intent')
+        Cookies.remove('token')
+        Cookies.remove('sponsor')
+
+        // alert("Payment successful!");
+
+        
+
+      } else {
+        alert(res?.data?.msg)
+      }
+
       setLoading(false);
     }
   };
