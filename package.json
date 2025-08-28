@@ -4,14 +4,25 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "server": "cd ../xcelerate_new/server && npm run dev",
+    "serve": "concurrently \"npm run dev\" \"npm run server\"",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
+    "@chakra-ui/react": "^3.25.0",
+    "@emotion/react": "^11.14.0",
+    "@stripe/react-stripe-js": "^3.9.2",
+    "@stripe/stripe-js": "^7.9.0",
+    "axios": "^1.11.0",
+    "concurrently": "^9.2.1",
+    "js-cookie": "^3.0.5",
     "next": "15.4.6",
+    "next-themes": "^0.4.6",
     "react": "19.1.0",
     "react-dom": "19.1.0",
+    "react-icons": "^5.5.0",
     "video.js": "^8.23.3"
   },
   "devDependencies": {

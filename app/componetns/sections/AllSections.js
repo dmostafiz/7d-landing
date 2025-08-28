@@ -2,6 +2,7 @@
 import { useState } from "react";
 import HiddenSections from "../HiddenSections";
 import VideoPlayer from "../VideoPlayer";
+import JoinForm from "../form/JoinForm";
 
 export default function AllSections() {
   const videoJsOptions = {
@@ -349,76 +350,7 @@ export default function AllSections() {
                     </div>
                   </div>
 
-                  <div
-                    id="two-setp-order-Pdp_9qtIPk"
-                    className="c-order c-wrapper two-setp-order-Pdp_9qtIPk"
-                  >
-                    <div className="container-order-form-two-step ctwo-setp-order-Pdp_9qtIPk">
-                      <div className="form-title">
-                        <div className="form-step">
-                          <span className="form-heading active">Step #1</span>
-                          <span className="form-sub-heading">
-                            Contact Details
-                          </span>
-                        </div>
-                        <div className="form-step">
-                          <span className="form-heading active">Step #2</span>
-                          <span className="form-sub-heading">Billing Info</span>
-                        </div>
-                      </div>
-                      <div className="divider-form">
-                        <i className="fas fa-caret-up caret-up" />
-                      </div>
-                      <div
-                        className="form-body"
-                        id="div-ctwo-setp-order-Pdp_9qtIPk"
-                      >
-                        <div>
-                          <section className="info">
-                            <input
-                              defaultValue=""
-                              type="text"
-                              name="name"
-                              placeholder="Full Name..."
-                              className="form-input input"
-                            />
-
-                            <input
-                              defaultValue=""
-                              type="text"
-                              name="email"
-                              placeholder="Email Address..."
-                              className="form-input input"
-                              autoComplete="new"
-                            />
-                            <input
-                              defaultValue=""
-                              type="tel"
-                              name="phone"
-                              placeholder="Phone Number..."
-                              className="form-input input"
-                              autoComplete="off"
-                            />
-                          </section>
-
-                          <section>
-                            <button className="form-btn" data-v-bb614710="">
-                              <span className="main-text" data-v-bb614710="">
-                                Go To Step #2
-                              </span>
-                              <br data-v-bb614710="" />
-                              <span className="sub-text" data-v-bb614710="" />
-                            </button>
-                          </section>
-                          <section className="order-form-footer">
-                            <span>
-                              We Respect Your Privacy &amp; Information.
-                            </span>
-                          </section>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+                  <JoinForm />
 
                   <div
                     id="sub-heading-1CRUE5C7ZL"

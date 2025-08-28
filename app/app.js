@@ -2,7 +2,7 @@ import ExternalCDN from "./componetns/ExternalCDN";
 import NavMenu from "./componetns/NavMenu";
 import Footer from "./componetns/Footer";
 import AllSections from "./componetns/sections/AllSections";
-
+import { Toaster } from "@/components/ui/toaster"
 export default function App() {
   return (
     <>
@@ -35,6 +35,7 @@ export default function App() {
         </div>
       </div>
       <ExternalCDN />
+      <Toaster />
     </>
   );
 }
