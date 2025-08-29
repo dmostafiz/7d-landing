@@ -227,7 +227,7 @@ export default function AllSections() {
 
                   <div
                     id="button-6QlT92C0Bd"
-                    className="c-button c-wrapper button-6QlT92C0Bd desktop-only"
+                    className="c-button c-wrapper button-6QlT92C0Bd"
                   >
                     <button
                       data-animation-class=""
