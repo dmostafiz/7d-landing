@@ -4,6 +4,8 @@ import HiddenSections from "../HiddenSections";
 import VideoPlayer from "../VideoPlayer";
 import JoinForm from "../form/JoinForm";
 
+const videoLink = "https://s3.us-west-1.amazonaws.com/shop-xcelerate/resources/7d-video.mp4"
+
 export default function AllSections() {
   const videoJsOptions = {
     controls: true,
@@ -14,8 +16,8 @@ export default function AllSections() {
     preload: "auto",
     sources: [
       {
-        src: "https://content.apisystem.tech/hls/medias/fYeUf1rxIJu7ZCmCYQr6/media/transcoded_videos/cts-be190ba9286afac8_,360,480,720,1080,p.mp4.urlset/master.m3u8",
-        type: "application/x-mpegURL", // This is key for HLS
+        src: "https://s3.us-west-1.amazonaws.com/shop-xcelerate/resources/7d-video.mp4",
+        type: "video/mp4", // This is key for HLS
       },
     ],
   };
