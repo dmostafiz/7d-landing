@@ -77,7 +77,7 @@ function CheckoutForm({ clientSecret }) {
 
       <button type="submit" className="form-btn" data-v-bb614710="">
         <span className="main-text" data-v-bb614710="">
-          {loading ? "Processing..." : "Pay Now"}
+          {loading ? "Processing..." : "Join Now"}
         </span>
       </button>
     </form>
