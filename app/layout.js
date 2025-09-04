@@ -15,8 +15,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Paid Creators",
-  description: "Paid Creators - A platform for creators to monetize their content",
+  title: "$7 Community",
+  description: "$7 Community - Teaching members how to stop chasing commissions and start creating wealth",
 };
 
 export default function RootLayout({ children }) {
