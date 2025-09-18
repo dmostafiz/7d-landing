@@ -54,12 +54,15 @@ function CheckoutForm({ clientSecret }) {
 
       if (res?.data?.ok) {
 
+        const token = Cookies.get('token')
+
         Cookies.remove('intent')
         Cookies.remove('token')
         Cookies.remove('sponsor')
 
         // alert("Payment successful!");
 
+        window.location.href = `https://thankyou.join7now.com?token=${token}`
         
 
       } else {
