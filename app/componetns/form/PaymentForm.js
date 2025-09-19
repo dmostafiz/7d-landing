@@ -41,7 +41,7 @@ function CheckoutForm({ clientSecret }) {
 
     } else if (paymentIntent && paymentIntent.status === "succeeded") {
       // Inform your backend
-      const res = await Axios.post("/uxlm/create-7x-order", {
+      const res = await Axios.post("/uxlm/confirm-7x-order", {
         paymentIntentId: paymentIntent.id,
         clientSecret
       }, {
