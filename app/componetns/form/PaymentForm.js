@@ -62,8 +62,9 @@ function CheckoutForm({ clientSecret }) {
 
         // alert("Payment successful!");
 
-        window.location.href = `https://thankyou.join7now.com?token=${token}`
-        
+        const redirectTo = process.env.REDIRECT_TO || 'https://thankyou.join7now.com'
+        window.location.href = `${redirectTo}?token=${token}`
+
 
       } else {
         alert(res?.data?.msg)
