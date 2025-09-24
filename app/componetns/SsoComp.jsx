@@ -14,6 +14,10 @@ export default function SsoComp() {
     const [error, setError] = useState(null)
 
     useEffect(() => {
+        Cookies.remove('intent')
+        Cookies.remove('token')
+
+
         const token = searchParams.get("_verification_token") // example: ?id=123
 
         if (token) {
@@ -48,7 +52,7 @@ export default function SsoComp() {
     }
 
     return (
-        <div className='h-full w-full flex items-center justify-center'>
+        <div  style={{height: '100vh', width: '100vw', display: 'flex', alignItems: 'center', justifyItems: 'center'}} className='h-full w-full flex items-center justify-center'>
             {loading && <span>Verifying...</span>}
             {error && <span className='text-red-500'>{error}</span>}
         </div>
