@@ -7,7 +7,7 @@ import Axios from '@/Helpers/Axios'
 import React, { useEffect, useState } from 'react'
 import { useSearchParams } from "next/navigation"
 
-export default function Sso() {
+export default function SsoComp() {
 
     const searchParams = useSearchParams()
     const [loading, setLoading] = useState(true)
