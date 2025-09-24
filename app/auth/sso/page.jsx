@@ -38,7 +38,7 @@ export default function page() {
             Cookies.set('intent', res?.data?.intent?.client_secret)
             Cookies.set('token', res?.data?.token)
 
-            window?.location?.href = '/'
+            return window.location.href = '/'
 
         } else {
             setError(res?.data?.msg)
