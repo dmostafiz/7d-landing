@@ -40,21 +40,23 @@ function CheckoutForm({ clientSecret }) {
       setLoading(false);
 
     } else if (paymentIntent && paymentIntent.status === "succeeded") {
+
+      const token = Cookies.get('token')
       // Inform your backend
+      console.log('Auth Token: ', token)
+
       const res = await Axios.post("/uxlm/confirm-7x-order", {
         paymentIntentId: paymentIntent.id,
         clientSecret
       }, {
         headers: {
-          Authorization: `Bearer ${Cookies.get('token')}`
+          Authorization: `Bearer ${token}`
         }
       });
 
       console.log('after payment response: ', res?.data)
 
       if (res?.data?.ok) {
-
-        const token = Cookies.get('token')
 
         Cookies.remove('intent')
         Cookies.remove('token')

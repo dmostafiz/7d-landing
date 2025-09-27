@@ -40,7 +40,7 @@ export default function SsoComp() {
         if (res?.data?.ok) {
 
             Cookies.set('intent', res?.data?.intent?.client_secret)
-            Cookies.set('token', res?.data?.token)
+            Cookies.set('token', searchParams.get("_verification_token"))
 
             return window.location.href = '/'
 
@@ -52,9 +52,11 @@ export default function SsoComp() {
     }
 
     return (
-        <div  style={{height: '100vh', width: '100vw', display: 'flex', alignItems: 'center', justifyItems: 'center'}} className='h-full w-full flex items-center justify-center'>
-            {loading && <span>Verifying...</span>}
-            {error && <span className='text-red-500'>{error}</span>}
+        <div>
+            <div style={{ height: '100vh', width: '100vw', display: 'flex', alignItems: 'center', justifyItems: 'center' }}>
+                {loading && <span className="text-gray-500">Verifying...</span>}
+                {error && <span className='text-red-500'>{error}</span>}
+            </div>
         </div>
     )
 }
